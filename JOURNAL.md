@@ -211,3 +211,19 @@ Total progress of the leg now:
 ![Robot arm progress](images/2026-07-21-arm-update.png)
 
 **Total time spent: 7 hours**
+
+# July 29 + 31, 2026
+
+I'm lazy when it comes to working on this project and even lazier when it comes to writing up journal entries T_T
+
+Over those two days I worked on building a connector for the two femur pieces, something I'd forgotten to do in my leg prototype (see a few entries ago to see that I used tape to hold them together). Here's the vision:
+
+![Femur connector vision](images/2026-08-02-connector-diagram.png)
+
+It's designed to not use supports when I print it, as the outer parts for the nuts have a <45 degree overhang.
+
+Here's that part:
+
+![Femur connector](images/2026-08-02-femur-connector.png)
+
+**Total time spent: 3 hours**
