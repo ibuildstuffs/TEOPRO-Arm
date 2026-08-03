@@ -238,7 +238,7 @@ Watched some tutorials on creating PCBs (what's a bus?)... I didn't have a schem
 
 Essentially, my battery's voltage can range, and can start as high as 8.4V, too high for the servos I plan on using. It's just straight up too high for the ESP32, so for these two, I'm going to need to use these to bring the voltage down. Really I just spent hours asking Google what to look for.
 
-### New items to the BOM:
+**New items to the BOM:**
 
 [D24V10F5 Step-Down Voltage Regulator](https://www.pololu.com/product/2831)
 
