@@ -244,7 +244,7 @@ Essentially, my battery's voltage can range, and can start as high as 8.4V, too 
 
 [HENGE UBEC](https://www.aliexpress.us/item/3256805424632815.html)
 
-**Total hours spent: 7 hours**
+**Total time spent: 7 hours**
 
 # August 3, 2026
 
@@ -268,4 +268,4 @@ I also figured out how to download and import 3D models, so now I can do the fun
 
 ![PCB Components](images/2026-08-03-pcb-start.png)
 
-**Total hours spent: 6 hours**
+**Total time spent: 6 hours**
