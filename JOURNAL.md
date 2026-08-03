@@ -227,3 +227,45 @@ Here's that part:
 ![Femur connector](images/2026-08-02-femur-connector.png)
 
 **Total time spent: 3 hours**
+
+# August 2, 2026
+
+I've gotten tired of CADing (aka I don't really know how to continue), so I wanted to dabble in electronics. I had *some* experience working with KiCad on some simple PCBs and I really enjoyed working on it, so hopefully this will be a nice change of scenery from 10000 hours of Fusion. This is the diagram I was able to come up with:
+
+![Wiring diagram](images/2026-08-03-schematic-diagram.png)
+
+Watched some tutorials on creating PCBs (what's a bus?)... I didn't have a schematic. I went down a rabbit hole having to further research how I would power the servos from my battery, learning about UBECs and buck converters.
+
+Essentially, my battery's voltage can range, and can start as high as 8.4V, too high for the servos I plan on using. It's just straight up too high for the ESP32, so for these two, I'm going to need to use these to bring the voltage down. Really I just spent hours asking Google what to look for.
+
+### New items to the BOM:
+
+[D24V10F5 Step-Down Voltage Regulator](https://www.pololu.com/product/2831)
+
+[HENGE UBEC](https://www.aliexpress.us/item/3256805424632815.html)
+
+**Total hours spent: 7 hours**
+
+# August 3, 2026
+
+Update: I have no clue what I'm doing, this is what I've been able to figure out:
+
+![Updated wiring diagram](images/2026-08-03-updated-schematic.png)
+
+I've also realized that the Feetech servos I want to purchase work differently than just using PWM, so I needed a [servo drive board](https://www.amazon.com/Waveshare-Integrates-Control-Circuit-Supports/dp/B0CTMM4LWK/). Also realized that I forgot to mention that for the wrist and grippers, I want to use these two smart servos:
+
+[Feetech ST3215 Servo](https://www.seeedstudio.com/STS3215-19kg-cm-7-4V-Serial-Servo-p-6338.html)
+
+[Feetech STS3032 Servo](https://www.aliexpress.us/item/3256802405403037.html)
+
+I figured out how to download and import symbols/footprints, and after doing some cleanup, here's what I have:
+
+![Updated V2 wiring diagram](images/2026-08-03-updated-updated-schematic.png)
+
+Currently this would be for a 5-DOF teleoperated arm, so I'm gonna ask around on the internet to get feedback and if it's okay, I'll add the 7th servo motor and make it 6-DOF. 
+
+I also figured out how to download and import 3D models, so now I can do the fun part, which is working on making the actual PCB, yay!
+
+![PCB Components](images/2026-08-03-pcb-start.png)
+
+**Total hours spent: 6 hours**
