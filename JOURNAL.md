@@ -269,3 +269,17 @@ I also figured out how to download and import 3D models, so now I can do the fun
 ![PCB Components](images/2026-08-03-pcb-start.png)
 
 **Total time spent: 6 hours**
+
+# August 4, 2026
+
+I'm on a plane back home, and with fighting jetlag, I figured I'd get some done work while I stayed up. Spent hours asking questions to realize that I did NOT have the requisite knowledge to take on a task like this, but can't turn back now. 
+
+This time the research (research being asking smarter people questions and googling what the hell it was they were talking about) was focused around realizing that PCB traces are thin, and would definitely not be able to handle 6-8A of current. The solution I came up with was to put big solder pads on the PCB and attach these pads together by soldering on 18AWG wire.
+
+Updated my schematic, adding solder pads for external/non-PCB components to connect to the PCB, and started adding traces connecting things on the PCB.
+
+![Updated V3 wiring diagram](images/2026-08-04-updated3-schematic.png)
+
+![PCB Progress](images/2026-08-04-pcb-progress.png)
+
+**Total time spent: 3 hours**
