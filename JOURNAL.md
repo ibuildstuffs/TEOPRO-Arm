@@ -192,7 +192,7 @@ I also went and spent some time redesigning the (now arm) 3D parts for the leg, 
 
 **Total time spent: 7 hours**
 
-# July 20/21, 2026
+# July 20-21, 2026
 
 I'm about to board a plane as I'm typing this...
 
@@ -212,7 +212,7 @@ Total progress of the leg now:
 
 **Total time spent: 7 hours**
 
-# July 29 + 31, 2026
+# July 29-31, 2026
 
 I'm lazy when it comes to working on this project and even lazier when it comes to writing up journal entries T_T
 
@@ -283,3 +283,19 @@ Updated my schematic, adding solder pads for external/non-PCB components to conn
 ![PCB Progress](images/2026-08-04-pcb-progress.png)
 
 **Total time spent: 3 hours**
+
+# August 12-13, 2026
+
+Here, I spent some time figuring out exactly how I was going to connect all of my components together. As I typed this out, I forgot to mention a couple of things, and I also just realized a bunch of features I need to be adding to the PCB.
+
+I'm adding a [cheap voltage sensor](https://www.aliexpress.us/item/3256809522145234.html) to the schematic, which should be able to detect if the battery's getting low and inform me to turn the battery off. 
+
+I continued to work on the PCB, getting the layout and adding the traces.
+
+![PCB Progress](images/2026-08-13-pcb-progress-2.png)
+
+Now I want to add a physical switch to turn the entire circuit off, and also add a MOSFET (IRLZ44N), such that voltage gets too low, I can shut off power to the motors.
+
+Technically I spent the whole day doing research, but it didn't feel like it, so I'll deflate my own sessions. I'll do a Lapse or something next time.
+
+**Total time spent: 4 hours**
